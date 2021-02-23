@@ -69,10 +69,10 @@
   }
 
   .container .row .heading-title {
-    padding: 10vh 8vh;
+    padding: 10vh 10vh 10px 8vh;
   }
   .container .row .heading-title .heading-title-content {
-    font-size: 24x;
+    font-size: 24px;
     font-weight: bold;
   }
   .container .row .heading-title .text-title-conent {
