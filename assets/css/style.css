@@ -64,19 +64,23 @@
     font-weight: 600;
     color: #2C2F36;
   }
+  .navbar .container-fluid #navbarNav ul li a {
+    font-size: 16px;
+  }
 
   .container .row .heading-title {
     padding: 10vh 10vh;
   }
   .container .row .heading-title .heading-title-content {
+    font-size: 24x;
     font-weight: bold;
   }
   .container .row .heading-title .text-title-conent {
-    font-size: 3vh;
+    font-size: 12px;
     color: #5F5F63;
   }
   .container .row .heading-title .btn {
-    font-size: 3vh;
+    font-size: 12px;
     padding: 8px 20px;
     border-radius: 40px;
   }
