@@ -77,7 +77,7 @@ $text-color : #5F5F63;
 
             .navbar-brand{
                 margin-bottom: 1vh;
-                padding-left: 30px;
+                padding-left: 12px;
                 padding-top: 20px;
                 padding-right: 30px;
                 img{
@@ -88,7 +88,7 @@ $text-color : #5F5F63;
             #navbarNav{
                 ul{
                     padding-top: 20px;
-                    padding-left: 30px;
+                    padding-left: 12px;
                     li{
                         margin-right: 1.2vh;
     
@@ -113,7 +113,7 @@ $text-color : #5F5F63;
             }
             
             .heading-title{
-                padding: 10vh 10vh;
+                padding: 10vh 8vh;
                 
                 .heading-title-content{
                     font-size: 24x;
@@ -132,6 +132,7 @@ $text-color : #5F5F63;
             .hero{
                 width: 360px;
                 margin-top: 30px;
+                padding-left: 0px;
             }
         }
     }
