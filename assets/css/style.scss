@@ -76,6 +76,7 @@ $text-color : #5F5F63;
         .container-fluid{
 
             .navbar-brand{
+                margin-right: 1vh;
                 margin-bottom: 1vh;
                 padding-left: 12px;
                 padding-top: 20px;
@@ -113,7 +114,7 @@ $text-color : #5F5F63;
             }
             
             .heading-title{
-                padding: 10vh 8vh 10vh 8vh;
+                padding: 10vh 8vh;
                 
                 .heading-title-content{
                     font-size: 24px;

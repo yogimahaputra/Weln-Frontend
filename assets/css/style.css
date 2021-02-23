@@ -45,6 +45,7 @@
     padding: 3vh 2vh;
   }
   .navbar .container-fluid .navbar-brand {
+    margin-right: 1vh;
     margin-bottom: 1vh;
     padding-left: 12px;
     padding-top: 20px;
@@ -69,7 +70,7 @@
   }
 
   .container .row .heading-title {
-    padding: 10vh 8vh 10vh 8vh;
+    padding: 10vh 8vh;
   }
   .container .row .heading-title .heading-title-content {
     font-size: 24px;
