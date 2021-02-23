@@ -44,6 +44,26 @@
   .navbar {
     padding: 3vh 2vh;
   }
+  .navbar .container-fluid .navbar-brand {
+    margin-bottom: 1vh;
+    padding-left: 30px;
+    padding-top: 20px;
+    padding-right: 30px;
+  }
+  .navbar .container-fluid .navbar-brand img {
+    width: 50px;
+  }
+  .navbar .container-fluid #navbarNav ul {
+    padding-top: 20px;
+    padding-left: 30px;
+  }
+  .navbar .container-fluid #navbarNav ul li {
+    margin-right: 1.2vh;
+  }
+  .navbar .container-fluid #navbarNav ul li .active {
+    font-weight: 600;
+    color: #2C2F36;
+  }
 
   .container .row .heading-title {
     padding: 10vh 10vh;

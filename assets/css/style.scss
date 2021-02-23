@@ -72,6 +72,34 @@ $text-color : #5F5F63;
 @media only screen and (max-width: 450px) {
     .navbar{
         padding: 3vh 2vh ;
+
+        .container-fluid{
+
+            .navbar-brand{
+                margin-bottom: 1vh;
+                padding-left: 30px;
+                padding-top: 20px;
+                padding-right: 30px;
+                img{
+                    width: 50px;
+                }
+            }
+            
+            #navbarNav{
+                ul{
+                    padding-top: 20px;
+                    padding-left: 30px;
+                    li{
+                        margin-right: 1.2vh;
+    
+                        .active {
+                            font-weight: 600;
+                            color: $color-nav;
+                        }
+                    }
+                }
+            }
+        }
     }
 
     .container{
