@@ -1,0 +1,216 @@
+$open-sass : 'Open sans' , sans-serif;
+$color-nav : #2C2F36;
+$text-color : #5F5F63;
+
+*{
+    font-family: $open-sass;
+
+}
+
+.navbar{
+    padding: 3vh 25vh ;
+    font-size: 20px;
+
+
+    .container-fluid{
+
+        .navbar-brand{
+            margin-right: 3.5vh;
+            margin-bottom: 1vh;
+            img{
+                width: 65px;
+            }
+        }
+
+        #navbarNav{
+            ul{
+                li{
+                    margin-right: 1.2vh;
+
+                    .active {
+                        font-weight: 600;
+                        color: $color-nav;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+//---------------------------Content -----------------------------//
+
+.container{
+    .row{
+        
+        .col-sm{
+        }
+        
+        .heading-title{
+            padding: 10vh 10vh;
+            
+            .heading-title-content{
+                font-weight: bold;
+            }
+            .text-title-conent{
+                font-size: 3vh;
+                color: $text-color;
+            }
+            .btn{
+                font-size: 3vh;
+                padding: 8px 20px;
+                border-radius: 40px;
+            }
+        }
+        .hero{
+            width: 70vh;
+        }
+    }
+}
+
+
+@media only screen and (max-width: 330px) {
+    .navbar{
+        padding: 3vh 2vh ;
+    }
+
+    .container{
+        .row{
+            
+            .col-sm{
+            }
+            
+            .heading-title{
+                padding: 10vh 10vh;
+                
+                .heading-title-content{
+                    font-weight: bold;
+                }
+                .text-title-conent{
+                    font-size: 3vh;
+                    color: $text-color;
+                }
+                .btn{
+                    font-size: 3vh;
+                    padding: 8px 20px;
+                    border-radius: 40px;
+                }
+            }
+            .hero{
+                width: 50vh;
+                margin-top: 30px;
+            }
+        }
+    }
+  }
+
+@media only screen and (min-width: 331px) and (max-width: 430px){
+    .navbar{
+        padding: 3vh 2vh ;
+    }
+
+    .container{
+        .row{
+            
+            .col-sm{
+            }
+            
+            .heading-title{
+                padding: 10vh 10vh;
+                
+                .heading-title-content{
+                    font-weight: bold;
+                }
+                .text-title-conent{
+                    font-size: 3vh;
+                    color: $text-color;
+                }
+                .btn{
+                    font-size: 3vh;
+                    padding: 8px 20px;
+                    border-radius: 40px;
+                }
+            }
+            .hero{
+                width: 70vh;
+                margin-top: 30px;
+            }
+        }
+    }
+  }
+@media only screen and (min-width: 431px) and (max-width: 770px){
+    .navbar{
+        padding: 3vh 2vh ;
+    }
+
+    .container{
+        .row{
+            
+            .col-sm{
+            }
+            
+            .heading-title{
+                padding: 10vh 10vh;
+                
+                .heading-title-content{
+                    font-weight: bold;
+                }
+                .text-title-conent{
+                    font-size: 3vh;
+                    color: $text-color;
+                }
+                .btn{
+                    font-size: 3vh;
+                    padding: 8px 20px;
+                    border-radius: 40px;
+                }
+            }
+            .hero{
+                width: 100vh;
+                margin-top: 30px;
+                margin-left: 50px;
+            }
+        }
+    }
+  }
+@media only screen and (min-width: 771px) and (max-width: 994px){
+    .navbar{
+        padding: 3vh 2vh ;
+    }
+
+    .container{
+        .row{
+            
+            .col-sm{
+            }
+            
+            .heading-title{
+                padding: 10vh 10vh;
+                
+                .heading-title-content{
+                    font-weight: bold;
+                }
+                .text-title-conent{
+                    font-size: 3vh;
+                    color: $text-color;
+                }
+                .btn{
+                    font-size: 3vh;
+                    padding: 8px 20px;
+                    border-radius: 40px;
+                }
+            }
+            .hero{
+                width: 100vh;
+                margin-top: 30px;
+                margin-left: 50px;
+            }
+        }
+    }
+  }
+
+//   @media screen and  (min-width: 1021px){
+//       .container{
+//           width: 1021px;
+//       }
+//   }
