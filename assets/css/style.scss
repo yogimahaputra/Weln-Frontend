@@ -8,7 +8,7 @@ $text-color : #5F5F63;
 }
 
 .navbar{
-    padding: 3vh;
+    padding: 3vh 20vh;
     font-size: 20px;
 
 
@@ -138,7 +138,11 @@ $text-color : #5F5F63;
         }
     }
 }
-
+@media only screen and (min-width: 451px) and (max-width: 1002px){
+    .navbar{
+        padding: 3vh 5vh ;
+    }
+}
 // @media only screen and (min-width: 331px) and (max-width: 430px){
 //     .navbar{
 //         padding: 3vh 2vh ;

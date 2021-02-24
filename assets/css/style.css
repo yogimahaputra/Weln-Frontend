@@ -3,7 +3,7 @@
 }
 
 .navbar {
-  padding: 3vh;
+  padding: 3vh 20vh;
   font-size: 20px;
 }
 .navbar .container-fluid .navbar-brand {
@@ -89,6 +89,11 @@
     width: 355px;
     margin-top: 30px;
     margin-left: -10px;
+  }
+}
+@media only screen and (min-width: 451px) and (max-width: 1002px) {
+  .navbar {
+    padding: 3vh 5vh;
   }
 }
 
