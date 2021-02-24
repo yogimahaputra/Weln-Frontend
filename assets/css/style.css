@@ -31,16 +31,18 @@
   font-size: 3vh;
   color: #5F5F63;
 }
-.container .row .heading-title .btn {
+.container .row .heading-title .button {
   font-size: 3vh;
-  padding: 8px 20px;
-  border-radius: 40px;
+  padding: 8px 30px;
+  border-radius: 20px;
+  outline: none;
+  border: none;
 }
 .container .row .hero {
   width: 70vh;
 }
 
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 563px) {
   .navbar {
     padding: 3vh 2vh;
   }
@@ -73,22 +75,28 @@
     padding: 10vh 8vh;
   }
   .container .row .heading-title .heading-title-content {
-    font-size: 24px;
+    font-size: 34px;
     font-weight: bold;
   }
   .container .row .heading-title .text-title-conent {
-    font-size: 12px;
+    font-size: 18px;
     color: #5F5F63;
   }
-  .container .row .heading-title .btn {
-    font-size: 12px;
+  .container .row .heading-title .button {
+    font-size: 16px;
     padding: 8px 20px;
     border-radius: 40px;
   }
   .container .row .hero {
+    display: none;
     width: 355px;
     margin-top: 30px;
     margin-left: -10px;
+  }
+}
+@media screen and (min-width: 564px) {
+  .hero {
+    display: block;
   }
 }
 @media only screen and (min-width: 451px) and (max-width: 1002px) {
